@@ -6,6 +6,7 @@ import java.net.*;
 import java.io.*;
 import java.util.*;
 
+//http://www.rune-server.org/programming/application-development/387765-directrobot-fast-java-robot-allows-screen-recording.html
 public final class DirectRobot
 {
 	public DirectRobot() throws AWTException
