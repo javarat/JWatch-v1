@@ -104,7 +104,7 @@ public class ClientWebcam extends Thread{
 				
 //				Webcam buildin = Webcam.getWebcams().get(0);
 //				if(buildin == null) {
-//					System.out.println("FUCK YOU webcam!");
+//					System.out.println(" webcam!");
 //				}
 //				image = buildin.getImage();
 //				image = robot.createScreenCapture(new Rectangle(width, height));
