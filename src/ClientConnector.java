@@ -55,7 +55,7 @@ public class ClientConnector implements Runnable {
 					BufferedReader inDepthClientInfo = new BufferedReader(new InputStreamReader(clientSocket.getInputStream()));
 					String line;
 					int i = 0; 
-					System.out.println("GAY of death.");
+					System.out.println("part 1");
 //					clientSocket.getInputStream().flush();
 //					byte[] temp = new byte[1];
 					//reads whatever command and determines what to do.
@@ -64,12 +64,12 @@ public class ClientConnector implements Runnable {
 //					for(int k = 0; k < 4; k++) {
 //					System.out.println((char) 5);
 //					}
-					System.out.println("stfu!");
+					System.out.println("part 2");
 					while(!((line = inDepthClientInfo.readLine()).equals("end")))  {
 						System.out.println(line);
 						switch(i) {
 						case 0: clientName = line;
-						System.out.println("CUUUUUNT: " + clientName);
+						System.out.println("44444444: " + clientName);
 						System.out.println("33333333: " + line);
 
 							break;
@@ -86,9 +86,9 @@ public class ClientConnector implements Runnable {
 							break;
 						}
 						i++;
-						System.out.println("loop of death.");
+						System.out.println("loop 1.");
 					}
-					System.out.println("I'M GAY!");
+					System.out.println("test 10");
 					model.addRow(new Object[]{clientName, "flag", country, city, operatingSystem, internalIP, externalIP});
 //					connectedClients.add(new ClientInfo(clientSocket, "Client " + (connectedClients.size() + 1)));
 					connectedClients.add(new ClientInfo(clientSocket, clientName, flag, country, city, operatingSystem, internalIP, externalIP));
@@ -134,12 +134,12 @@ public class ClientConnector implements Runnable {
 	
 	//checks if it's a new client, or a subsocket of a client
 	public boolean isNewClient(Socket clientSocket) {
-		System.out.println("FUCK TREES");
+		System.out.println("fOO BEAR");
 		System.out.println("CONNECTED CLIENTS NUMBER: " + connectedClients.size());
 		for(ClientInfo client : connectedClients) {
-			System.out.println("DICK SUCKS");
+			System.out.println("SKY SCAPERS");
 			if(clientSocket.getInetAddress().equals(client.getMainSocket().getInetAddress())) {
-				System.out.println("EQUALS MOTHERFUCKER!");
+				System.out.println("BLUE BEATS GREEN");
 				if(client.getCommandSocket() == null) {
 					client.addCommandSocket(clientSocket);
 					System.out.println("CLIENTCONNECTOR: HAVE ADDED COMMAND SOCKET");
@@ -154,7 +154,7 @@ public class ClientConnector implements Runnable {
 //						if(!type.equals("maxilius")) {
 							client.addSubSocket(new SocketInfo(clientSocket, type));
 //						} else {
-//							System.out.println("FUCK YOU BUG!");
+//							System.out.println("PROGRAMMING IS FUN");
 //						}
 					} catch (IOException e) {
 						// TODO Auto-generated catch block
