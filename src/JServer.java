@@ -127,7 +127,7 @@ public class JServer {
 								if(requestedClient.getNumSubSockets() == 2) {
 									break;
 								}
-								System.out.println("FUCK ME LORDY!");
+								System.out.println("hug ME LORDY!");
 							}
 							//DON'T FORGET TO ADD THE LISTENERS FOR REMOTE CONTROL TOMORROW INSIDE REMOTE DESKTOP CLASS!!!
 //							
@@ -155,7 +155,7 @@ public class JServer {
 									System.out.println("66666666666666666666");
 									pw.write(temp, 0, 1); //send message that it wants to quit.
 //									remoteDesktop.interrupt(); //stops that thread
-									System.out.println("QUITTING MOTHERFUCKERS BYE!");
+									System.out.println("QUITTING people BYE!");
 									break;
 								} 
 							}
