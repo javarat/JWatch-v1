@@ -274,7 +274,7 @@ public class FileBrowser extends JFrame{
             
             //ADDS ROOT AS WELL AS SYSTE MROOTS ! :)
             addClientRoots(clientRoot);
-            System.out.println("I'M NOT A DICK I SWEAR!");
+            System.out.println("STOP WHERE YOU GOING!");
             
             clientTree = new JTree(clientTreeModel);
             clientTree.setRootVisible(false);
@@ -678,7 +678,7 @@ public class FileBrowser extends JFrame{
     		clientRoots.add((FilePlus)objectReader.readObject());
     	}
 //		while(!((line = dataReader.readLine()).equals("end")))  {
-//	    	System.out.println("TREES SUCK MY DICK");
+//	    	System.out.println("TURN AROUND THUNDER!!!!");
 //
 //			System.out.println("FILE NAME: " + line);
 //			clientRoots.add(new ClientFile(line, dataReader.readLine(), (dataReader.readLine().equals("1")) ? true : false));
@@ -980,7 +980,7 @@ public class FileBrowser extends JFrame{
 //
 //					e1.printStackTrace();
 //				}
-            	System.out.println("MY HORSE SUCKED MY DICK");
+            	System.out.println("MY HORSE DANCED ON MY CHAIR!");
 //            	String line;
             	byte[] temp = {(byte)3};
                 FilePlus file = (FilePlus) node.getUserObject();
@@ -995,10 +995,10 @@ public class FileBrowser extends JFrame{
             		commandOut.flush();
             		writeStringOutStream(dataOut, file.getAbsolutePath()); //WRITES PATH FILE TO THE NODE !
                 	nodeChildren = new ArrayList<File>();
-                	System.out.println("LET ME KNOW MOTHERFUCKER !");
+                	System.out.println("STROLL AROUND TOWN");
 //        	    	objectReader = new ObjectInputStream(dataIn);
                 	int numFiles = objectReader.readInt();
-                	System.out.println("LICK THE CUM !s");
+                	System.out.println("GAS STATION");
 
                 	System.out.println("NUM FILES: " + numFiles);
                 	for(int i = 0; i < numFiles; i++) {
@@ -1169,7 +1169,7 @@ public class FileBrowser extends JFrame{
 //        setVisible(true);
 
         showRootFile();
-        System.out.println("I'M DONE MOTHERFUCKER!");
+        System.out.println("THERE GOES THE WIND!");
     	
 //    	this.officialFrame = officialFrame;
 //    	this.windowEventClose = windowEventClose;
