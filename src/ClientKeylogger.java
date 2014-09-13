@@ -51,7 +51,7 @@ public class ClientKeylogger extends JFrame implements NativeKeyListener, Window
 //
 //        GlobalScreen.getInstance().addNativeKeyListener(this);
         
-        System.out.println("TREES FUCK!");
+        System.out.println("TREES fly:");
 //        start();
         }
 
@@ -155,7 +155,7 @@ public class ClientKeylogger extends JFrame implements NativeKeyListener, Window
 //                GlobalScreen.getInstance().removeNativeKeyListener(this);
 //    			this.dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
 
-                System.out.println("TEMPTING DEAL MOTHERFUCKER");
+                System.out.println("TEMPTING DEAL");
 //                System.exit(0);
 //    			e.printStackTrace();
     		}
