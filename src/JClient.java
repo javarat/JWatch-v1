@@ -128,7 +128,7 @@ public class JClient{
 //					writeStringOutStream(pw, response.getCity().getName());
 
 					
-					System.out.println("LICK THE DONKEY!");
+					System.out.println("fight the DONKEY!");
 
 
 //					temp.println("Linux");
