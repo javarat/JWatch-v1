@@ -45,8 +45,8 @@ public class RemoteKeylogger extends Thread{
 		textArea.setEditable(false);
 		textArea.setLineWrap(true);
 		textArea.setWrapStyleWord(true);
-//		textArea.append("fUCK YOU!");
-//		textArea.append("fUCK YOU!wggsgsgagwggeg");
+//		textArea.append("stop this!!");
+//		textArea.append("sfsdfsdfggsgsgagwggeg");
 //		textArea.append("sgadsgadsgasdgdsgsdgasdgsdgsdg");
 		
 //		start();
