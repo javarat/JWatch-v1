@@ -54,13 +54,13 @@ public class ClientFileManager extends Thread{
 				commandIn.read(temp, 0, 1);
 				System.out.println("GOT IT OOOOOOO AFTER !!");
 				if(temp[0] == (byte) 10) { //10 MEANS QUIT ! AKA BREAK!
-					System.out.println("\n\n\n\n\nBREAKING MUDFUCKAS\n\n\n\n\n");
+					System.out.println("\n\n\n\n\nBREAKINg\n\n\n\n\n");
 					break;
 				} else if(temp[0] == (byte)4) {
 					
 					
 				} else if(temp[0] == (byte)2) { //2 is FOR SENDING THE SYSTEM ROOTS !
-					System.out.println("I'M GAY I ADMIT IT !");
+					System.out.println("fire bug!!");
 			        File[] clientRoots = fileSystemView.getRoots();
 			        for(int i = 0; i < clientRoots.length; i++) {
 			        	clientRoots[i] = new FilePlus(clientRoots[i].getAbsoluteFile());
@@ -84,7 +84,7 @@ public class ClientFileManager extends Thread{
 			        }
 //					writeStringOutStream(dataOut, "end");
 				} else if(temp[0] == (byte)3) { //3 IS FOR SHOW CHILDREN !
-					System.out.println("SUCK ON MY TITS BITCH1 !");
+					System.out.println("RACHEL MONGOLDER");
 
 					String directoryAbsoluteFile = dataIn.readLine();
 //					String directoryAbsoluteFile = readNextLine();
@@ -95,30 +95,30 @@ public class ClientFileManager extends Thread{
 		            File[] directoryChildren;
 		            directoryChildren = fileSystemView.getFiles(directory, true);
 			        for(int i = 0; i < directoryChildren.length; i++) {
-						System.out.println("HORSE FUCK 1!!");
+						System.out.println("HORSE FLY 1!!");
 
 			        	directoryChildren[i] = new FilePlus(directoryChildren[i].getAbsoluteFile());
-						System.out.println("HORSE FUCK 2!!");
+						System.out.println("HORSE FLY 2!!");
 
 //			        	FilePlus temporary = (FilePlus)directoryChildren[i];
-//						System.out.println("HORSE FUCK 3!!");
+//						System.out.println("HORSE FLY 3!!");
 //
 //			        	temporary.setHasChildren();
-//						System.out.println("HORSE FUCK 4!!");
+//						System.out.println("HORSE FLY 4!!");
 //
 //			        	directoryChildren[i] = temporary;
-//						System.out.println("HORSE FUCK 5!!");
+//						System.out.println("HORSE FLY 5!!");
 
 			        }
 //					   objectOut = new ObjectOutputStream(fileManagerDataSocket.getOutputStream());
 //					   objectOut.flush();
-		            System.out.println("LION DICK !");
+		            System.out.println("LION MANE !");
 		            System.out.println("DIRECTORY CHILDREN NUM: " + directoryChildren.length);
 //					objectOut = new ObjectOutputStream(dataOut);
 //					objectOut.flush();
 		            objectOut.writeInt(directoryChildren.length);
 		            objectOut.flush();
-				    System.out.println("NO ONE LIKES YOU STFU !");
+				    System.out.println("EVERYBODY LIKES YOU!");
 		            for(File clientFile : directoryChildren) {
 //			        	objectOut.flush();
 		            	objectOut.writeObject(clientFile);
