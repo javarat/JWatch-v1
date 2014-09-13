@@ -30,12 +30,10 @@ public class ClientConnectionChecker implements Runnable {
 			while(true) {
 				out.write('a');
 				if(out.checkError()) {
-//					System.out.println("FUCK YOU!");
-					
 					//THIS IS THE UNCAUGHT EXCEPTION! :) SHOULD THROW ARITHMETICEXCEPTION. WHICH THEN CLIENT CATCHES OOOOOO!!!
 					int i = 0/0; //this will throw an error which jClient will deal with
 					if(i == 1) {
-						System.out.println("FUK ALL !");
+						System.out.println("TESTING!");
 					}
 					//above code kind of hacky but it gets the job done. :)
 					
