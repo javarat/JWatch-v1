@@ -42,7 +42,7 @@ public class ServerConnectionChecker implements Runnable {
 			//wait until ONE client connects
 			synchronized(monitor) {
 				try {
-//					System.out.println("why waste the chance fucker?");
+//					System.out.println("why waste the chanc?");
 					monitor.wait();
 				} catch (InterruptedException e) {
 					// TODO Auto-generated catch block
@@ -54,10 +54,10 @@ public class ServerConnectionChecker implements Runnable {
 				//reader = new InputStreamReader(socket.getInputStream());
 				char[] temp = new char[1];
 				while(true) {
-			    //System.out.println("FUCK!");
+			    //System.out.println("stop");
                 //synchronized(connectedClients) {
 					lock.lock();
-//				     System.out.println("LOCKED NIGGA!");
+//				     System.out.println("LOCKED");
 //				     System.exit(0);
 					Iterator<ClientInfo> i = connectedClients.iterator();
 					ClientInfo clientInfo;
@@ -90,7 +90,7 @@ public class ServerConnectionChecker implements Runnable {
 //							out.flush();
 							reader.read(temp);
 						}
-//						System.out.println("WELL FUCK YOU!");
+//						System.out.println("WELL GO HOME!");
 //						System.exit(0);
 					}
 					lock.unlock();
