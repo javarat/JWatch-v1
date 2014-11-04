@@ -5,7 +5,7 @@ JWatch is an awesome Java Remote Access Tool that allows you to control a comput
 
 It is not finished, however the main aspects have already been which include File View (still need a file transfer coded), Remote Desktop, Remote Keylogger, and webcam view.
 
-I started this in the summer of 2014 as the other option was to watch movies and waste time. I figured I wanted to do something interesting.
+I started this in the summer of 2014 as a side project.
 
 The code base is pure Java, though a few libraries were needed for hardware access using the C language like the JnativeHook for the keylogger.
 
