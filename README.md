@@ -1,7 +1,7 @@
-JWatch---Revolutionary-Java-Remote-Access-Tool-RAT-
+JWatch v1
 ===================================================
 
-JWatch is an awesome Java Remote Access Tool that allows you to control a computer and administer it. 
+JWatch v1 is an awesome Java Remote Access Tool that allows you to control a computer and administer it. 
 
 It is not finished, however the main aspects have already been which include File View (still need a file transfer coded), Remote Desktop, Remote Keylogger, and webcam view.
 
